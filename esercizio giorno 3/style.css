@@ -1,0 +1,121 @@
+body {
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    margin: 0;
+}
+
+header {
+    background-color: #ffffff;
+    padding: 20px;
+}
+div article p{color: #ababab;}
+#logo {
+    height: 60px;
+    display: block;
+    margin: 0 auto;
+}
+
+.yellow-bar {
+    margin-top: 20px;
+    border-top: 2px solid #ffdb82;
+    background-color: #fdfbf1; 
+}
+
+#yellow-text {
+    text-align: center;
+    color: #004d4c; 
+    font-weight: bold;
+    font-size: medium;
+}
+
+main {
+    text-align: center;
+    padding: 20px;
+}
+
+.left-container {
+    text-align: left;
+    margin: 0 auto;
+    max-width: 580px; 
+    padding: 20px;
+}
+
+h1 {
+    color: #000; 
+    font-weight: bold;
+}
+
+.centered-text {
+    text-align: left;
+}
+
+#focaccia {
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+#focaccia-text { font-style: serif;
+    text-align: center;
+    color: #adacac; 
+}
+
+#featured {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    color: #b94f1b; 
+    font-weight: bold;
+    background-color: #ffffff; 
+    padding: 5px 10px;
+    margin-top: 10px;
+}
+
+#featured-link {
+    line-height: 3px;
+    text-decoration: underline;
+    color: #0077A6; 
+    text-decoration: none;
+}
+
+h2 {
+    font: Light 100;
+    color: #000; 
+    font-weight: bold;
+}
+h1 {font-size: xx-large;font-family: 'Playfair Display', serif;
+text-align: center;}
+
+h4{font: Regular 400;}
+
+ul {
+    list-style-type: disc;
+}
+
+li {
+    font-size: small;
+    margin-bottom: 10px;
+    font: Regular 400;
+    text-align: left;
+}
+
+ol {
+    text-align: left;
+    margin-top: 20px;
+}
+
+#read-more {
+    color: #000; 
+    font-weight: bold;
+}
+
+#read-more a {
+    color: #0077A6; 
+    text-decoration: none;
+}
+h2 {
+    color: #000; 
+    font-weight: bold;
+    border-bottom: 1px solid #0077A6 ; 
+}
+#read-more a {text-decoration-line: underline;}
