@@ -1,0 +1,216 @@
+body {
+  font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif;
+  background-image: url('sfondo.png');
+  background-attachment: fixed;
+  background-size: 100% auto;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  position: relative;
+  z-index: 2;
+  padding: 20px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  color: rgb(59, 144, 247);
+}
+
+main {
+  position: relative;
+  z-index: 1;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+section.quadrato {
+  background-color: #007791;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 90%;
+  height: 100px;
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+section nav ul {
+  color: white;
+  list-style-type: none;
+}
+
+div.principale {
+  top: 10%;
+  left: 5%;
+  width: 90%;
+}
+
+div.principale main {
+  width: 100%;
+}
+
+table {
+  font-size: 14px;
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.post2,
+.post3,
+.post4 {
+  width: 280px;
+  height: 100px;
+  background-color: #dddddd;
+  background-color: rgb(185, 185, 185);
+  margin-bottom: 10px;
+}
+
+strong {
+  color: #aa2072;
+}
+
+code.tag {
+  background-color: #d5d5d5;
+  padding: 5px;
+  border-radius: 10px;
+  font-family: monospace;
+}
+
+article > p1,
+span {
+  color: rgba(192, 192, 192, 0.7);
+  padding: 5px;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+iframe {
+  border-radius: 40px;
+  border: 1px solid #ccc;
+}
+
+section.newsletter {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #d5d5d5;
+  padding: 5px;
+  border-radius: 10px;
+  font-family: monospace;
+}
+
+fieldset {
+  border-bottom: 2px dashed;
+}
+
+footer {
+  margin-top: 30px;
+  background: linear-gradient(to top, #17496e, #1f4449);
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+footer p,
+footer address {
+  margin: 0;
+  padding: 5px;
+}
+
+footer a {
+  color: #f616d2;
+}
+
+header li a {
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.date-with-calendar {
+  text-align: right;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.date {
+  margin-left: 10px;
+  color: #888;
+}
+
+/* Stili per dispositivi mobili di 450x500 px */
+@media screen and (max-width: 450px) {
+  body {
+    background-image: url('sfondo.png');
+    background-attachment: fixed;
+    background-size: 100% auto;
+    background-position: center;
+  }
+
+  header {
+    padding: 10px;
+  }
+
+  main {
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 20px;
+    background-color: white;
+  }
+
+  section.quadrato {
+    width: 100%;
+    height: auto;
+  }
+
+  div.principale {
+    top: 10%;
+    left: 5%;
+    width: 90%;
+  }
+
+  div.principale main {
+    width: 100%;
+  }
+
+  table {
+    font-size: 14px;
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+@media screen and (max-width: 450px) {
+  .post1, .post2, .post3, .post4 {
+    width: 100%;
+  }
+}
+  .post2,
+  .post3,
+  .post4 {
+    width: 100%;
+    margin: 0 auto;
+    height: 100px;
+    background-color: #dddddd;
+    background-color: rgb(185, 185, 185);
+    margin-bottom: 10px;
+  }
+
+}
