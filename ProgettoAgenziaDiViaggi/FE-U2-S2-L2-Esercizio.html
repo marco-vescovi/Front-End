@@ -1,0 +1,287 @@
+<!DOCTYPE html> <html lang="en"> 
+    <head>
+         <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+           <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+            <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script> <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script> 
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script> <title>Agenzia Di Viaggi</title> <style>  .discount-section {
+    background-color: #f9f9f9;
+    padding: 30px;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+.description-section {
+    background-color: #f9f9f9;
+    padding: 30px;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+.customer-reviews {
+    background-color: #f9f9f9;
+    padding: 30px;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+ .navbar { background-color: #2a2c3d; } .navbar-brand img { width: 50px; height: 50px; } .navbar-collapse .navbar-nav .nav-link { color: #f5f5f5; } .navbar-collapse .navbar-nav .nav-link:hover { color: #f9d84a; } .intro { background-color: #e9ecef; border-radius: 20px; padding: 30px; margin-top: 30px; } .intro p { font-style: italic; } .cta { background-color: #2a2c3d; color: #f5f5f5; font-weight: bold; border-radius: 5px; padding: 10px 20px; cursor: pointer; } .cta:hover { background-color: #f9d84a; color: #2a2c3d; } .card-deck .card { border: 2px solid #2a2c3d; } .card-deck .card .btn { background-color: #2a2c3d; color: #f5f5f5; font-weight: bold; border-radius: 5px; padding: 10px 20px; } .card-deck .card .btn:hover { background-color: #f9d84a; color: #2a2c3d; } .footer { background-color: #2a2c3d; color: #f5f5f5; padding: 20px; text-align: center; } .footer .btn { background-color: #f9d84a; color: #2a2c3d; font-weight: bold; border-radius: 5px; padding: 10px 20px; } .badge-hot { background-color: #f9d84a; color: #2a2c3d; font-weight: bold; position: absolute; top: 10px; right: 10px; } .modal-body input[type="email"] { width: 100%; padding: 10px; margin-bottom: 10px; } .modal-body textarea { width: 100%; padding: 10px; height: 100px; } </style> </head> <body> <nav class="navbar navbar-expand-lg"> <a class="navbar-brand" href="#"><img src="img's/logo.png" alt="Logo"></a> <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button> <div class="collapse navbar-collapse" id="navbarNav"> <ul class="navbar-nav"> <li class="nav-item active"> <a class="nav-link" href="#">Home</a> </li> <li class="nav-item"> <a class="nav-link" href="#">Last minute</a> </li> <li class="nav-item"> <a class="nav-link" href="#">Saldi</a> </li> <li class="nav-item"> <a class="nav-link" href="#">Recensioni</a> </li> </ul> </div> </nav>
+
+<div class="intro">
+    <h2>Benvenuti nella nostra Agenzia di viaggio</h2>
+    <p>pianifica la vacanza perfetta con noi!</p>
+    <button class="cta" data-toggle="modal" data-target="#contactModal">Contattaci</button>
+</div>
+
+<div class="container">
+    <div class="card-deck">
+        <div class="card">
+            <img src="img's/new-york-city-evening-NYCTG0221-52492d6ccab44f328a1c89f41ac02aea.jpg" class="card-img-top" alt="Destination 1">
+            <div class="card-body">
+                <h5 class="card-title">New York City</h5>
+                <p class="card-text">New York City, la città che non dorme mai, è un'irresistibile metropoli globale, cuore pulsante di cultura, arte, e opportunità. Con i suoi grattacieli imponenti, le strade vibranti e la diversità culturale, NYC è un'esperienza unica che cattura l'essenza della vita urbana e offre un'incredibile varietà di attrazioni per tutti i gusti.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+            <div class="card-footer">
+                <button class="btn">Explore</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img's/licensed-image.jpeg" class="card-img-top" alt="Destination 2">
+            <div class="card-body">
+                <h5 class="card-title">Kyoto</h5>
+                <p class="card-text">Kyoto, gioiello del Giappone, incanta con la sua bellezza serena e paesaggi mozzafiato. Avvolta da antichi templi, giardini zen e tradizionali quartieri storici, Kyoto offre un rifugio tranquillo dal trambusto moderno. I ciliegi in fiore, i riflessi nei laghi e le tradizioni millenarie creano un'atmosfera rilassante, rendendo Kyoto un luogo magico dove immergersi nella serenità della cultura giapponese.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+            <div class="card-footer">
+                <button class="btn">Explore</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img's/alfama-panorama.jpg" class="card-img-top" alt="Destination 3">
+            <div class="card-body">
+                <h5 class="card-title">lisbona</h5>
+                <p class="card-text">Lisbona: città delle sette colline, tra avventura diurna tra stradine storiche e vista mozzafiato, e notti vivaci tra discoteche, bilanciato dalla tranquillità delle spiagge sul maestoso Atlantico.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+            <div class="card-footer">
+                <button class="btn">Explore</button>
+            </div>
+        </div>
+    </div>
+<!-- secondo blocco viaggi -->
+
+</div>
+<div class="container">
+    <div class="card-deck">
+        <div class="card">
+            <img src="img's/hocingpin.jpeg" class="card-img-top" alt="Destination 1">
+            <div class="card-body">
+                <h5 class="card-title">Ho Chi Minh City</h5>
+                <p class="card-text">Scopri l'energia pulsante di Ho Chi Minh City con il nostro viaggio esclusivo. Da mercati affollati a strade animate, immergiti nell'atmosfera unica di questa metropoli vietnamita, dove la modernità si fonde armoniosamente con la storia. Esplora la vivace scena culinaria, ammira l'architettura coloniale e lasciati trasportare dalla notevole vita notturna. Con la nostra agenzia di viaggi, trasforma la tua avventura in Vietnam in un'esperienza indimenticabile, oltre le destinazioni comuni.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+            <div class="card-footer">
+                <button class="btn">Explore</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img's/licensed-image (1).jpeg" class="card-img-top" alt="Destination 2">
+            <div class="card-body">
+                <h5 class="card-title">Takayama</h5>
+                <p class="card-text">Esplora il Giappone oltre i ciliegi in fiore: scopri la spettacolarità e le tradizioni invernali di Takayama, dove antichi quartieri Edo si trasformano in un incantevole scenario di neve, offrendo un'esperienza autentica e unica nel cuore delle montagne giapponesi.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+            <div class="card-footer">
+                <button class="btn">Explore</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img's/rovinji.jpeg" class="card-img-top" alt="Destination 3">
+            <div class="card-body">
+                <h5 class="card-title">Rovinj</h5>
+                <p class="card-text">Scopri la bellezza segreta delle spiagge croate a Rovinj. Mare cristallino, strade acciottolate e sapori autentici ti aspettano. Goditi la vita in riva al mare con la nostra agenzia di viaggi. Prenota ora la tua fuga indimenticabile!</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+            <div class="card-footer">
+                <button class="btn">Explore</button>
+            </div>
+        </div>
+    </div>
+</div>
+ <!-- viaggi in sconto  -->
+<div class="row discount-section">
+    <div class="col-md-6">
+        <img src="img's/jp finale.jpg" alt="Discounted Destination Image" class="img-fluid">
+        <h2>Sconti speciali</h2>
+    </div>
+    <div class="col-md-6">
+        <p>🌟 <strong>AsukaWanderlust: Black Friday Speciale Giappone!</strong> 🌸🎄<br>
+            Scopri il Giappone con le nostre irresistibili offerte Black Friday! Questo esclusivo pacchetto natalizio ti porta alla conquista di quattro destinazioni straordinarie, immergendoti in un viaggio unico attraverso la cultura, la tradizione e la modernità giapponese.<br><br>
+            
+            ✈️ <strong>Voli Comodi e Alloggi di Classe:</strong><br>
+            Goditi un viaggio senza pensieri con i nostri voli andata e ritorno per il Giappone e alloggi di qualità nelle città più iconiche. Scegli tra stanze condivise per un'esperienza sociale o camere singole per un tocco di privacy.<br><br>
+            
+            🏙️ <strong>Esplora le Perle del Giappone:</strong><br>
+            🗼 <strong>Tokyo:</strong> La metropoli futuristica, pulsante di vita. Attraversa le strade di Shibuya, illuminate dai giganteschi schermi pubblicitari, e immergiti nella spiritualità di Asakusa con il suo maestoso tempio Senso-ji.<br>
+            🏰 <strong>Kyoto:</strong> Un viaggio nel passato. Perditi nei tradizionali quartieri di Gion e Higashiyama, ammirando i templi millenari e le geishe che solcano le antiche strade.<br>
+            🕹️ <strong>Akihabara:</strong> Il paradiso dell'otaku. Esplora il quartiere elettronico, pieno di negozi di manga, anime e videogiochi, offrendoti un'immersione nella cultura pop giapponese.<br>
+            ❄️ <strong>Takayama:</strong> Un rifugio invernale sereno. Circondato dalle montagne, Takayama offre una pace ristoratrice. Passeggia per il quartiere Edo e assapora l'atmosfera unica delle strade coperte di neve.<br><br>
+            
+            🎁 <strong>Regala l'Incredibile con AsukaWanderlust:</strong><br>
+            Prenota ora e sperimenta il fascino di queste destinazioni iconiche a un prezzo straordinario. Fai la tua scelta e rendi il tuo Natale indimenticabile nel Cuore del Giappone!<br><br>
+            
+            💖 <strong>Esclusività Black Friday - Sconti Imbattibili!</strong><br>
+            Non lasciarti sfuggire questa opportunità unica di vivere l'incanto del Giappone durante le festività. AsukaWanderlust è la chiave per un'avventura senza pari nel Paese del Sol Levante! 🌅💫
+            </p>
+            
+    </div>
+</div>
+
+
+<div class="row discount-section">
+    <div class="col-md-6">
+        <img src="img's/nyc.jpg" alt="Discounted Destination Image" class="img-fluid">
+        <h2>Sconti speciali</h2>
+    </div>
+    <div class="col-md-6">
+        <p>🌟 <strong>AsukaWanderlust: Esplora l'America!</strong> 🇺🇸✨<br>
+            🎉 <strong>Offerte Speciali Black Friday - Sconti Imperdibili!</strong> 🎁<br>
+            
+            🗽 <strong>Destinazioni:</strong><br>
+            
+            1. <strong>New York City, New York:</strong><br>
+               - Vivere l'incanto della "Grande Mela" con le sue icone come Times Square e Central Park. Una metropoli cosmopolita che non dorme mai.<br>
+            
+            2. <strong>San Francisco, California:</strong><br>
+               - Attraversa il Golden Gate Bridge e percorri le caratteristiche strade in salita. Esplora la cultura bohémien di questa affascinante città sulla baia.<br>
+            
+            3. <strong>New Orleans, Louisiana:</strong><br>
+               - Senti il ritmo del jazz nei quartieri francesi di New Orleans. Assapora la cucina creola e immergiti nell'atmosfera vibrante di questa città unica.<br>
+            
+            4. <strong>Grand Canyon, Arizona:</strong><br>
+               - Ammira la maestosità del Grand Canyon, uno dei luoghi naturali più spettacolari al mondo. Un'esperienza indimenticabile tra le gole e i panorami mozzafiato.<br>
+            
+            ✈️ <strong>Cosa Include il Pacchetto:</strong><br>
+            
+            - Biglietto aereo andata e ritorno per gli Stati Uniti.<br>
+            - Soggiorno in hotel nelle città più emblematiche, con opzione di stanza condivisa o singola.<br>
+            - Tour guidato nelle destinazioni principali con guide locali esperte.<br>
+            - Esperienze uniche e attività culturali.<br>
+            
+            🌆 <strong>Esplora l'Incredibile:</strong><br>
+            
+            - <strong>New York City:</strong> Da Broadway a Central Park, vivi la magia della città che non dorme mai.<br>
+              
+            - <strong>San Francisco:</strong> Attraversa il Golden Gate Bridge e scopri la storia di Alcatraz.<br>
+              
+            - <strong>New Orleans:</strong> Assapora la cucina creola e immergiti nella musica jazz nei quartieri francesi.<br>
+            
+            - <strong>Grand Canyon:</strong> Ammira il paesaggio mozzafiato e sperimenta un'escursione indimenticabile.<br>
+            
+            🎁 <strong>Regala il Viaggio della Vita:</strong><br>
+            
+            Prenota ora e vivi l'America come mai prima d'ora!<br>
+            Approfitta degli sconti speciali Black Friday e regalati un'avventura attraverso le meraviglie degli Stati Uniti con AsukaWanderlust!<br>
+            
+            💖 <strong>Esclusività Black Friday - Sconti Imperdibili!</strong>
+            
+            </p>
+            
+    </div>
+</div>
+<div class="row customer-reviews">
+    <div class="col-md-12">
+        <h2>Dicono di noi</h2>
+        <!-- gruppo recensioni ne york -->
+        <div class="media">
+            <img src="img's/avatar2.png" class="mr-3" alt="Customer 1 Avatar" width="64">
+            <div class="media-body">
+                <h5 class="mt-0">Alice Johnson</h5>
+                <p>Recensione per New York:
+                 "Il mio viaggio a New York è stato incredibile!<br>
+                 La città che non dorme mai ha superato tutte le aspettative.<br>
+                Grazie ad AsukaWanderlust per aver reso questa esperienza così speciale!"</p>
+            </div>
+        </div>
+
+        <div class="media">
+            <img src="img's/avatar1.jpeg" class="mr-3" alt="Customer 1 Avatar" width="64">
+            <div class="media-body">
+                <h5 class="mt-0">Robert Anderson</h5>
+                <p>Recensione per New York:
+                    "New York è semplicemente straordinaria!<br>
+                    Dal Central Park agli imponenti grattacieli di Manhattan, ogni momento è stato magico.<br>
+                    AsukaWanderlust ha curato ogni dettaglio del mio viaggio, rendendolo indimenticabile."</p>
+            </div>
+        </div>
+        <!-- gruppo giappone -->
+        <div class="media mt-4">
+            <img src="img's/avatar3.png" class="mr-3" alt="Customer 2 Avatar" width="64">
+            <div class="media-body">
+                <h5 class="mt-0">Sophia Nakamura</h5>
+                <p>Recensione per il Pacchetto Giapponese:
+                    "Ho scelto il pacchetto giapponese e non potevo essere più felice!<br>
+                    Da Tokyo a Takayama, ogni città ha offerto qualcosa di unico.<br>
+                    Un viaggio ben organizzato grazie ad AsukaWanderlust!"</p>
+            </div>
+        </div>
+
+        <div class="media mt-4">
+            <img src="img's/avatar4.png" class="mr-3" alt="Customer 2 Avatar" width="64">
+            <div class="media-body">
+                <h5 class="mt-0">David Miller</h5>
+                <p>
+                    Recensione per il Pacchetto Giapponese: <br>
+"Il Giappone è davvero magico, e AsukaWanderlust ha reso tutto così fluido.<br>
+Kyoto con i suoi templi e Takayama con la sua tranquillità invernale sono stati momenti indimenticabili."</p>
+            </div>
+        </div>
+
+ <!-- gruppo sconto america -->
+ <div class="row customer-reviews">
+ <div class="media">
+    <img src="img's/avatar5.png" class="mr-3" alt="Customer 1 Avatar" width="64">
+    <div class="media-body">
+        <h5 class="mt-0">Giovanni Rossi</h5>
+        <p>"Un'esperienza americana indimenticabile!<br>
+             Da New York alla maestosità del Grand Canyon,<br>
+              questo pacchetto di viaggio ha superato ogni aspettativa. <br>
+               Grazie AsukaWanderlust per aver reso il mio sogno americano realtà!"</p>
+    </div>
+        </div>
+        
+<!-- Contattaci -->
+<div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="contactModalLabel">Contattaci</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="form-group">
+                        <label for="name">Nome</label>
+                        <input type="text" class="form-control" id="name" placeholder="Il tuo nome">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="La tua email">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Messaggio</label>
+                        <textarea class="form-control" id="message" rows="3"></textarea>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Invia</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body> </html>></s><s>
